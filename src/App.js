@@ -15,13 +15,13 @@ function App() {
     <>
     <Router>
       <Navbar/>
+      <Post/>
       <div className="container">
         <Routes>
           <Route exact path="/" element={<Home/>} />
           {/* <Route exact path="/about" element={<About />} />
           <Route exact path="/ContactUs" element={<ContactUs/>} /> */}
         </Routes>
-        <Post/>
       </div>
     </Router>
     </>

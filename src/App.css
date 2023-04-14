@@ -1,3 +1,33 @@
 *{
   margin:0;
 }
+
+.post_image{
+  object-fit: contain;
+  background-color: white;
+  size:240px;
+}
+
+.app{
+  background-color: #fafafa;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.card-body{
+  display: flex;
+  min-height: 120vh;
+  image-resolution: 240px,360px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

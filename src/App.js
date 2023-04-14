@@ -10,7 +10,7 @@ import Post from './Components/Post';
 // import Navbar2 from './Components/Navbar2';
 
 
-function App() {
+const App=()=> {
   return (
     <>
     <Router>

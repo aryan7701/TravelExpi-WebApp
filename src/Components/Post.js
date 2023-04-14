@@ -1,20 +1,16 @@
 import React from "react";
 
-export const Post= ()=>{
+const Post= ()=>{
     // let {title, description,imageUrl,newsUrl,author,date,source} =props;
     return(
-        <div className="app">
-            <h3>Username</h3>
-            {/*header -> avatar +username*/}
-            
-                    <div className="card-body">
-                    <h3 className="carrd-title">Title</h3>
-                    <p className="card-text">Description...</p>
-                    <img className="card-image" src="https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg" alt=""/>
-                    {/* <p className="card-text"><small className="text-muted">By{username?username:"Unknown"} on {new Date(date).toGMTString()}</small></p> */}
-                    </div>
-                           
-            </div>
+        <div class="card" style={{width: "18rem;"}}>
+        <img src="..." class="card-img-top" alt="..."/>
+        <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
     );
 };
 

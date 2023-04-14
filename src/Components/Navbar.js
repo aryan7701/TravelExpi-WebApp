@@ -13,19 +13,16 @@ const Navbar= () =>{
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+                        <Link className="nav-link" aria-current="page" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/about">About</Link>
+                        <Link className="nav-link" aria-current="page" to="/Following">Following</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/menu">Menu</Link>
+                        <Link className="nav-link" aria-current="page" to="/Scenics">Scenics</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/contactUs">ContactUs</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/Caters">Catering</Link>
+                        <Link className="nav-link" aria-current="page" to="/Post">Post</Link>
                     </li>
                 </ul>
                 </div>

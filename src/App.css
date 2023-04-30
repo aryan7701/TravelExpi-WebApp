@@ -19,16 +19,25 @@
   font-size: calc(10px + 2vmin);
   color: white;
 } */
+.container{
+  margin-top: 36px;
+  padding-top: 4px;
+}
 
 .card-body{
+  /* margin:2px; 
+   padding:2px; */
   display: flex;
-  min-height: 100vh;
+  min-height: 60vh;
   image-resolution: 240px,1080px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
+/* 
 .card-image{
-  
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */

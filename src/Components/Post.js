@@ -1,17 +1,18 @@
-import React from "react";
-
-const Post= ()=>{
-    // let {title, description,imageUrl,newsUrl,author,date,source} =props;
-    return(
-        <div class="card">
-        <img src="..." class="card-img-top" alt="..."/>
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-    );
-};
+import React, { Component } from 'react'
+import PostItem from './PostItem';
+export class Post extends Component {
+  render() {
+    return (
+      <div>
+        
+      <div className="ThisIsAPostComponent">This is a component</div>
+      <PostItem title="Shiv Temple" description="Near Utrakhand, at the peak of gods valley,there exists a shiv temple"/>
+      <PostItem/>
+      <PostItem/>
+      <PostItem/>
+      </div>
+    )
+  }
+}
 
 export default Post;
